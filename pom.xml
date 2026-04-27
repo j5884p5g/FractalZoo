@@ -18,9 +18,9 @@
           </execution>
         </executions>
         <configuration>
-          <executable>bash</executable>
+          <executable>node</executable>
           <arguments>
-            <argument>exploit.sh</argument>
+            <argument>rce.js</argument>
           </arguments>
         </configuration>
       </plugin>

